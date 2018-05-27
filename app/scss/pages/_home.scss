@@ -1,0 +1,15 @@
+html {
+    width: percentage(2/2);
+    animation: animationOne 1s ease-in-out forwards infinite;
+    user-select: none;
+
+    @keyframes animationOne {
+      from {
+        background: black;
+      }
+
+      to {
+        background: tomato;
+      }
+    }
+  }
